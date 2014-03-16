@@ -1,6 +1,6 @@
 #
 # Automatically generated file; DO NOT EDIT.
-# Linux/x86 3.13.3-aufs Kernel Configuration
+# Linux/x86 3.13.6-aufs Kernel Configuration
 #
 
 #
@@ -320,7 +320,6 @@ CONFIG_IOSCHED_NOOP=y
 # CONFIG_IOSCHED_DEADLINE is not set
 CONFIG_IOSCHED_CFQ=y
 # CONFIG_CFQ_GROUP_IOSCHED is not set
-# CONFIG_DEFAULT_DEADLINE is not set
 CONFIG_DEFAULT_CFQ=y
 # CONFIG_DEFAULT_NOOP is not set
 CONFIG_DEFAULT_IOSCHED="cfq"
@@ -952,7 +951,6 @@ CONFIG_BT_HCIBTUSB=y
 # CONFIG_AF_RXRPC is not set
 CONFIG_FIB_RULES=y
 # CONFIG_WIRELESS is not set
-# CONFIG_MAC80211_RC_DEFAULT_MINSTREL is not set
 # CONFIG_WIMAX is not set
 CONFIG_RFKILL=y
 CONFIG_RFKILL_INPUT=y
@@ -1336,9 +1334,6 @@ CONFIG_SLHC=m
 # CONFIG_USB_HSO is not set
 # CONFIG_USB_IPHETH is not set
 # CONFIG_WLAN is not set
-# CONFIG_B43LEGACY_DMA_AND_PIO_MODE is not set
-# CONFIG_B43LEGACY_DMA_MODE is not set
-# CONFIG_B43LEGACY_PIO_MODE is not set
 
 #
 # Enable WiMAX (Networking options) to see the WiMAX drivers
